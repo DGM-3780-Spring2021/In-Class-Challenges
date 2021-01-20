@@ -6,4 +6,4 @@ Each student is required to choose 4 challenges to complete and submit a pull re
 
 The challenges are in the challenges.md file.
 
-Create new .js files with submitted code. HTML files aren't required, but if that is something that helps you they are ok.
+Create new .js files with submitted code. Use your first name for the name of the file. (IE landon.js) HTML files aren't required, but if that is something that helps you they are ok.
