@@ -2,7 +2,7 @@
 
 For this assignment we will be working in groups to individually submit pull requests to this repo with commpleted challenges.
 
-Each student is required to choose 2 challenges to complete and submit a pull request. You can't pick the same challenges as other students in your group.
+Each student is required to choose 4 challenges to complete and submit a pull request. You can't pick the same challenges as other students in your group.
 
 The challenges are in the challenges.md file.
 
