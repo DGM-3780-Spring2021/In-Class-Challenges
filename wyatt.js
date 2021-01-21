@@ -2,11 +2,10 @@ let string = 'Random String to be replaced'
 let arrayRandom = ['This is great! I love JS!!!']
 
 function replaceSpacesWith_(text) {
-    return text.split('').join('_')
+    return text.split(' ').join('_')
 }
 
 replaceSpacesWith_(string)
-
 
 
 function chunksChop(string, size) {
