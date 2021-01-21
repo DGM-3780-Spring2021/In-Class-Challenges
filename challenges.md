@@ -59,7 +59,7 @@ deepEqual(obj1, obj2);              // true
 * Should display nested objects key values pairs
 * Recursion can be used, but isn't required
 
-**Design a function which can keep recieving the arguments on each function call and returns the sum when no argument is passed**
+**Design a function which can keep receiving the arguments on each function call and returns the sum when no argument is passed**
 * The function can be designed to return another function which maintains the closure over the previous sum value
 * The check for breaking condition can be added using the argument check for undefined
 * 3rd solution uses the property on function to store the total which will be updated on each call hence the same function can be returned
