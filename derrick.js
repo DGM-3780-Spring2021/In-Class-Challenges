@@ -53,6 +53,7 @@ function stringChop(word, size) {
  // I attempted to do this with .substring. after searching I found this elegant solution
   let re = new RegExp('.{1,' + size + '}', 'g');
   console.log(word.match(re));
+  return stringChop.match(re)
 }
 stringChop('JavaScript'); // [“JavaScript”]
 stringChop('JavaScript', 2); // [“Ja”, “va”, “Sc”, “ri”, “pt”]
