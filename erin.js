@@ -8,7 +8,7 @@ function reverseString(str) {
 
     return joinedString;
 }
-// reverseString(str);
+reverseString(str);
 
 //Design a function which can recieve variable number of arguments in parameters and prints them** 
 
@@ -16,7 +16,7 @@ function printArguments(...params){
     console.log(...params);
 }
 
-// printArguments(str, ' another argument', ' and another argument');
+printArguments(str, ' another argument', ' and another argument');
 
 
 //**Write a function to replace all the spaces of the string with underscores** 
