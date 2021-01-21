@@ -38,24 +38,26 @@ console.log(compareObjs())
 
 //**Sort the given array of integers in ascending or descending order**
 
-myArr = ["1","2","3","4","5","6","7","8","9"];
+myArr = ["1","8","2","7","5","6","4","4","3"];
 
 function sortArr(){
-    myArr.sort();
+    console.log(myArr.sort())
 }
 sortArr()
 
 //**Print numbers from 1 to 10 with delay of 1 second between each value being printed**
 
-function waiting(){
-    console.log("waiting 1 second");
-}
+// function waiting(){
+//     console.log("waiting 1 second");
+// }
 
 function printNums(){
-    newArr = ["1","2","3","4","5","6","7","8","9","10"]
+    let newArr = ["1","2","3","4","5","6","7","8","9","10"]
     for(let i = 0; i <10; i++){
-        setTimeout(waiting, 1000)
-        console.log(newArr[i])
+        setTimeout(function(){
+            console.log(newArr[i])
+            console.log("waiting 1 second")
+        }, 1000)
     }
 }
 printNums()
