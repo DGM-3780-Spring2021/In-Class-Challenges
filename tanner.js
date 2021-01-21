@@ -3,8 +3,8 @@
 let string = "this is a long string"
 
 function replaceSpace() {
-    string.replace(" ", "_")
-    return string;
+    newString = string.split(" ").join('_')
+    console.log(newString)
 }
 replaceSpace()
 
@@ -34,6 +34,7 @@ function compareObjs() {
         return false
     }
 }
+console.log(compareObjs())
 
 //**Sort the given array of integers in ascending or descending order**
 
@@ -53,8 +54,8 @@ function waiting(){
 function printNums(){
     newArr = ["1","2","3","4","5","6","7","8","9","10"]
     for(let i = 0; i <10; i++){
-        console.log(newArr[i])
         setTimeout(waiting, 1000)
+        console.log(newArr[i])
     }
 }
 printNums()
