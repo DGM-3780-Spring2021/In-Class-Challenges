@@ -59,7 +59,7 @@ deepEqual(obj1, obj2);              // true
 * Should display nested objects key values pairs
 * Recursion can be used, but isn't required
 
-**Design a function which can keep recieving the arguments on each function call and returns the sum when no argument is passed**
+**Design a function which can keep receiving the arguments on each function call and returns the sum when no argument is passed**
 * The function can be designed to return another function which maintains the closure over the previous sum value
 * The check for breaking condition can be added using the argument check for undefined
 * 3rd solution uses the property on function to store the total which will be updated on each call hence the same function can be returned
@@ -88,7 +88,7 @@ multiply(2)(4);                 // 8
 multiply(5)(3);                 //15
 ```
 
-**Design a Calulator interface for 2 number inputs which can perform sum, difference, product and dividend whenever invoked on the same interface**
+**Design a Calculator interface for 2 number inputs which can perform sum, difference, product and dividend whenever invoked on the same interface**
 ```javascript
 // Example
 const calc12And5 = Calculator(12, 5);
@@ -98,18 +98,18 @@ calc12And5.product();                   // 60
 calc12And5.dividend();                  // 2
 ```
 
-**Design a function which can recieve variable number of arguments in parameters and prints them**
+**Design a function which can receive variable number of arguments in parameters and prints them**
 
 **Write a function which executes only if the number of arguments match the number of parameters the function is expecting**
 
-**Write a function which executes another function recieved as an argument**
+**Write a function which executes another function received as an argument**
 * Functions can be passed as arguments to another functions
 * Passing the function as argument will pass its reference hence no parenthesis
 
 **Sort the given array of integers in ascending or descending order**
 
 * `sort` method sorts the elements of an array in place and returns the sorted array
-* It receives a function as an argument, which is used for comparision
+* It receives a function as an argument, which is used for comparison
 
 **Square all the positive numbers of the array and return the output array**
 
