@@ -5,7 +5,7 @@
 **Write a function to reverse a string**
 
 **Write a function to replace all the spaces of the string with underscores**
-
+//////
 **Write a function which can convert the time input given in 12 hours format to 24 hours format**
 
 **Write a function to truncate a string to a certain number of letters**
@@ -18,7 +18,7 @@ truncateString(“JS is funny”, 12)           // “JS is fun…”
 ```
 
 **Write a function to chop a string into chunks of a given length and return it as array**
-
+//////
 ```javascript
 // Example
 stringChop(‘JavaScript’);               // [“JavaScript”]
@@ -107,6 +107,11 @@ calc12And5.dividend();                  // 2
 * Passing the function as argument will pass its reference hence no parenthesis
 
 **Sort the given array of integers in ascending or descending order**
+```javascript
+const findMaxAndPos = (arrayVar1) =>{
+    return(arrayVar1.sort((a, b) => a-b))
+}
+```
 
 * `sort` method sorts the elements of an array in place and returns the sorted array
 * It receives a function as an argument, which is used for comparision
@@ -114,6 +119,15 @@ calc12And5.dividend();                  // 2
 **Square all the positive numbers of the array and return the output array**
 
 **Write a function to get the maximum value from a numbers array along with its index**
+```javascript
+const findMaxAndPos = (arrayVar1) =>{
+    let maxNum = Math.max(...arrayVar1)
+    let posNum = arrayVar1.findIndex(maxNum)
+
+    let results = {maximum: maxNum, index: posNum}
+    return results
+}
+```
 
 **Write a program to polyfill filter functionality of the Array (Rewrite the .filter method)**
 * `filter` iterates over the all values of array and passes value, index and array (itself) as the arguments
@@ -129,5 +143,10 @@ calc12And5.dividend();                  // 2
 * Function returns a single value after all the iteration
 
 **Create a function which receives a function as argument and executes it after 2 seconds**
+```javascript
+const delayFuncCall = (func) =>{
+    setTimeout(func, 2000)
+}
+```
 
 **Print numbers from 1 to 10 with delay of 1 second between each value being printed**
