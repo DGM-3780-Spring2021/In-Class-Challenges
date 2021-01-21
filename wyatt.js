@@ -1,11 +1,11 @@
 let string = 'Random String to be replaced'
 let arrayRandom = ['This is great! I love JS!!!']
 
-// function replaceSpacesWith_(text) {
-//     return text.split('').join('_')
-// }
+function replaceSpacesWith_(text) {
+    return text.split('').join('_')
+}
 
-// console.log(replaceSpacesWith_(string))
+replaceSpacesWith_(string)
 
 
 
@@ -33,3 +33,15 @@ function printArgs(...args) {
 }
 
 printArgs(3, 6, 7, 5, 4)
+
+
+function callIfParamatersMatch(one, two, three) {
+    console.log(callIfParamatersMatch.arguments)
+    if (callIfParamatersMatch.arguments.length === 3) {
+        console.log('This function is running properly')
+    } else {
+        console.log('Please try again')
+    }
+}
+
+callIfParamatersMatch(1, 2, 3)
